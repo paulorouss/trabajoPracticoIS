@@ -5,7 +5,8 @@ pipeline {
       steps {
         sh '''
 git pull origin'''
-        sh 'gradlew build'
+        sh '''gradle init
+'''
       }
     }
 
