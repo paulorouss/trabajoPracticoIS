@@ -5,25 +5,18 @@ pipeline {
       steps {
         sh '''
 git pull origin'''
-        sh '''stage(\'Gradle Build\') {
-    if (isUnix()) {
-        sh \'./gradlew clean build\'
-    } else {
-        bat \'gradlew.bat clean build\'
-    }
-}'''
-          sh './gradlew bootRun'
-        }
+        sh 'gradle init'
       }
-
-      stage('Test') {
-        environment {
-          CI = 'true'
-        }
-        steps {
-          sh ' ./jenkins/scripts/test.sh'
-        }
-      }
-
     }
+
+    stage('Test') {
+      environment {
+        CI = 'true'
+      }
+      steps {
+        sh ' ./jenkins/scripts/test.sh'
+      }
+    }
+
   }
+}
