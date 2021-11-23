@@ -5,7 +5,6 @@ pipeline {
       steps {
         sh '''
 git pull origin'''
-        sh './gradlew bootRun'
       }
     }
 
