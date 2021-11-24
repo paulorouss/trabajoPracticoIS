@@ -3,12 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''
-git pull origin'''
-        withGradle() {
-          sh 'gradle --version'
-        }
-
+        sh '''./gradlew build
+'''
       }
     }
 
