@@ -6,7 +6,7 @@ pipeline {
         sh '''
 git pull origin'''
         withGradle() {
-          sh 'gradle init'
+          sh 'gradle --version'
         }
 
       }
