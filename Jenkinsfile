@@ -5,8 +5,10 @@ pipeline {
       steps {
         sh '''
 git pull origin'''
-        sh '''gradle init
-'''
+        withGradle() {
+          sh 'gradle init'
+        }
+
       }
     }
 
