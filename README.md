@@ -1,56 +1,18 @@
-JPet Store Sample [![Java CI with Gradle](https://github.com/domaframework/spring-boot-jpetstore/workflows/Java%20CI%20with%20Gradle/badge.svg)](https://github.com/domaframework/spring-boot-jpetstore/actions?query=workflow%3A%22Java+CI+with+Gradle%22)
-========================================
+## TRABAJO PRACTICO DDS MARTES MAÑANA 2022
 
-This sample shows how easy to integrate [Doma][doma] with  [Spring Boot][spring-boot] .
+|Columna 1|Columna 2|
+|--------|--------|
+|    A    |    B    |
+|    C    |    D    |
 
-Besides, this sample is useful as a reference to combine the following libraries:
 
-- Spring Security 
-- Thymeleaf
-- Hibernate Validator
-
-You need Java 11 or later to build and run this sample.
-
-Clone
---------
-
-```sh
-git clone https://github.com/domaframework/spring-boot-jpetstore.git
-```
-
-Run
---------
-
-```sh
-cd spring-boot-jpetstore
-```
-
-```sh
-./gradlew bootRun
-```
-
-Access
---------
-
-```
-http://localhost:8080/
-```
-
-Edit
---------
-
-### IntelliJ IDEA
-
-Import this sample as a Gradle project.
-
-### Eclipse
-
-Generate all Eclipse files with Gradle.
-
-```sh
-./gradlew eclipse
-```
-
-[doma]: https://github.com/domaframework/doma
-[spring-boot]: https://github.com/spring-projects/spring-boot
-
+### Subtítulo
+Este es un ejemplo de texto que da entrada a una lista genérica de elementos:
+- Elemento 1
+- Elemento 2
+- Elemento 3
+Este es un ejemplo de texto que da entrada a una lista numerada:
+1. Elemento 1
+2. Elemento 2
+3. Elemento 3
+Al texto en Markdown puedes añadirle formato como **negrita** o *cursiva* de una manera muy sencilla.
